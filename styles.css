@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-h1 {
+.title h1 {
     color: #FCA311;
     font-family: 'Archivo Black', sans-serif;
 }
@@ -28,13 +28,43 @@ h1 {
 .instructions {
     margin: 15px auto;
     width: max-content;
-    font-family:'Segoe UI', sans-serif
+    font-family:'Segoe UI', sans-serif;
 }
 
 /* Scoreboard */
 
 .scoreboard {
     margin: 0 auto;
-    height: 250px;
+    height: 170px;
     width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.player-score {
+    text-align: center;
+    margin: 25px 80px;
+}
+
+.player-score p {
+    font-size: 4rem;
+}
+
+.player-score h1 {
+    font-size: 3rem;
+}
+
+.computer-score {
+    text-align: center;
+    margin: 25px 80px;
+}
+
+.computer-score p {
+    font-size: 4rem;
+}
+
+.computer-score h1 {
+    font-size: 3rem;
 }
